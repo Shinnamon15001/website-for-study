@@ -1,0 +1,84 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+body {
+    background-color: rgb(255, 239, 219);
+}
+
+/* ************************************menu************************* */
+
+.menu {
+    background-color: rgb(255, 223, 158);
+    height: 10vh;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.menu a {
+    text-decoration: none;
+    text-shadow: 2px 2px 2px rgb(202, 202, 202);
+    font-size: 24px;
+    color: black;
+}
+.menu a:hover {
+    transition: 0.2s;
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 2px 2px rgb(0, 0, 0);
+}
+
+/* ************************************main************************* */
+
+.main {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 100%;
+}
+.mainDetail img {
+    width: 80vh;
+}
+
+/* ************************************foot************************* */
+
+.footer {
+    height: 20vh;
+    background-color: rgb(65, 65, 65);
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    gap: 50px;
+}
+.footChild ul {
+    list-style-type: none;
+}
+.footChild ul li {
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+    padding-top: 10px;
+}
+.footChild ul li a:hover {
+    text-shadow: 2px 2px 2px rgba(255, 255, 255);
+}
+.footChild ul li a {
+    text-decoration: none;
+    color: white;
+}
+.footChild ul li:nth-child(1){
+    font-size: 30px;
+    padding-bottom: 10px;
+}
